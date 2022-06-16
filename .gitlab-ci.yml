@@ -1,0 +1,30 @@
+# List of stages for jobs, and their order of execution
+stages:
+  - install
+  - deploy
+# 缓存
+cache:
+  paths:
+    - node_modules
+npm_install:
+  image: node:16.14.0-stretch-slim
+  stage: install
+  script:
+    - rm -rf ./node_modules
+    # - npm install --registry=https://registry.npm.taobao.org
+  tags:
+    - react_ci
+  only:
+    - dev
+npm_deploy:
+  image: docker:dind
+  stage: deploy
+  script:
+    - pwd;ls;
+    - docker build -t xx/react-project-template .
+    - docker rm -f react-project-template
+    - docker run -d -p 5000:8080 --name react-project-template xx/react-project-template
+  tags:
+    - react_ci
+  only:
+    - dev

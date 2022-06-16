@@ -1,0 +1,6 @@
+/public/
+!/public/index.html
+build
+.vscode
+.idea
+node_modules
