@@ -6,7 +6,7 @@
 &emsp;[![NodeJS](https://img.shields.io/badge/NodeJS-16.15.1-rightgreen?logo=node.js)](https://nodejs.org/)
 &emsp;[![Sass](https://img.shields.io/badge/Sass-1.52.3-ff69b4?logo=node.js)](https://sass-lang.com/)
 &emsp;[![ESLint](https://img.shields.io/badge/ESLint-8.17.0-blueviolet?logo=eslint)](https://eslint.bootcss.com/)
-&emsp;[![Prettier](https://img.shields.io/badge/Prettier-2.7.0-blueviolet?logo=prettier)](https://eslint.bootcss.com/)
+&emsp;[![Prettier](https://img.shields.io/badge/Prettier-2.7.0-black?logo=prettier)](https://eslint.bootcss.com/)
 &emsp;[![husky](https://img.shields.io/badge/husky-8.0.1-green?logo=husky)](https://github.com/typicode/husky/)
 &emsp;[![Git](https://img.shields.io/badge/Git-2.35.1-red?logo=git)](https://git-scm.com/)
 
@@ -88,10 +88,10 @@
 
 ### 项目管理
 
-- 开发人员：[GitLab / Members](http://git.gitlab.com/xx/xxxx/project_members)
-- 更新日志：[CHANGELOG.md](CHANGELOG.md)
-- 常见问题：[GitLab / issues / label=FAQ](http://git.gitlab.com/xx/xxxx/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=FAQ)
-- LICENSE：[LICENSE](LICENSE)
+- 开发人员：[Members](https://github.com/lichong-a/react-project-template/graphs/contributors)
+- 更新日志：[CHANGELOG.md](https://github.com/lichong-a/react-project-template/blob/main/CHANGELOG.md)
+- 常见问题：[FAQ](https://github.com/lichong-a/react-project-template/wiki/FAQ)
+- LICENSE：[LICENSE](https://github.com/lichong-a/react-project-template/blob/main/LICENSE)
 
 ### 相关文档
 
@@ -147,10 +147,10 @@ npm run start
 
 ## <mark>团队协作</mark>
 
-- 详见 [CONTRIBUTING.md](CONTRIBUTING.md)
+- 详见 [CONTRIBUTING.md](https://github.com/lichong-a/react-project-template/blob/main/CONTRIBUTING.md)
 
 ## 重要决策
 
-- 大事件：[GitLab / wiki / 大事件]()
+- 大事件：[GitLab / wiki / 大事件](https://github.com/lichong-a/react-project-template/wiki/Home)
   - 重要决策：
   - 大事件：
