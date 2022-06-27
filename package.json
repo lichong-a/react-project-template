@@ -21,8 +21,7 @@
   "lint-staged": {
     "src/**/*.{js|jsx|ts|tsx|less|scss|css|json|md|yml}": [
       "pretty-quick --staged",
-      "eslint",
-      "git add"
+      "eslint"
     ]
   },
   "repository": {
