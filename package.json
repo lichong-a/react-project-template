@@ -13,15 +13,17 @@
     "dev": "cross-env NODE_ENV=development webpack serve --config build/webpack.dev.config.js --progress --color --node-env=development",
     "eslint": "eslint --fix ./src/**/*.{js,jsx,ts,tsx} --cache",
     "eslint:check": "eslint ./src/**/*.{js,jsx,ts,tsx}",
-    "prettier": "prettier --write .",
-    "prettier:check": "prettier --check .",
+    "prettier": "prettier --ignore-unknown --write .",
+    "prettier:check": "prettier --ignore-unknown --check .",
     "pre-commit": "lint-staged",
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{js|jsx|ts|tsx|less|scss|css|json|md|yml}": [
-      "pretty-quick --staged",
-      "eslint"
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix --cache"
+    ],
+    "*": [
+      "prettier --ignore-unknown --write"
     ]
   },
   "repository": {

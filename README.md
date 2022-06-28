@@ -1,12 +1,12 @@
 # react-project-template
 
-[![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react)](https://github.com/facebook/react/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://github.com/facebook/react/)
 &emsp;[![Webpack](https://img.shields.io/badge/Webpack-5.73.0-lightgrey?logo=webpack)](https://webpack.js.org/)
 &emsp;[![Babel](https://img.shields.io/badge/Babel-7.18.5-yellow?logo=babel)](https://babeljs.io/)
 &emsp;[![NodeJS](https://img.shields.io/badge/NodeJS-16.15.1-rightgreen?logo=node.js)](https://nodejs.org/)
-&emsp;[![Sass](https://img.shields.io/badge/Sass-1.52.3-ff69b4?logo=node.js)](https://sass-lang.com/)
-&emsp;[![ESLint](https://img.shields.io/badge/ESLint-8.17.0-blueviolet?logo=eslint)](https://eslint.bootcss.com/)
-&emsp;[![Prettier](https://img.shields.io/badge/Prettier-2.7.0-black?logo=prettier)](https://eslint.bootcss.com/)
+&emsp;[![Sass](https://img.shields.io/badge/Sass-1.53.0-ff69b4?logo=node.js)](https://sass-lang.com/)
+&emsp;[![ESLint](https://img.shields.io/badge/ESLint-8.18.0-blueviolet?logo=eslint)](https://eslint.bootcss.com/)
+&emsp;[![Prettier](https://img.shields.io/badge/Prettier-2.7.1-black?logo=prettier)](https://prettier.io/)
 &emsp;[![husky](https://img.shields.io/badge/husky-8.0.1-green?logo=husky)](https://github.com/typicode/husky/)
 &emsp;[![Git](https://img.shields.io/badge/Git-2.35.1-red?logo=git)](https://git-scm.com/)
 

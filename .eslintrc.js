@@ -15,7 +15,7 @@ module.exports = {
   plugins: ['react', 'react-hooks'],
   settings: {
     react: {
-      version: '17.0.2',
+      version: '18.2.0',
     },
   },
   // 声明全局变量
