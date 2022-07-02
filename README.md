@@ -123,8 +123,8 @@
   - .prettierignore：Prettier 忽略文件
 - **启动**
   ```
-  npm install
-  npm run dev
+  pnpm install
+  pnpm run dev
   ```
 - **访问项目**
   - 默认为[http://localhost:8080/](http://localhost:8080/)
@@ -134,7 +134,7 @@
 #### 方式一：（推荐）
 
 ```
-npm run build
+pnpm run build
 ```
 
 打包后使用 nginx 代理
@@ -142,7 +142,7 @@ npm run build
 #### 方式二：（不推荐）
 
 ```
-npm run start
+pnpm run start
 ```
 
 ## <mark>团队协作</mark>
